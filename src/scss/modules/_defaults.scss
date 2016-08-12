@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+html {
+  // font-size: 62.5%;
+}
+body {
+	@import 'https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,700';
+	$font-stack: 'Josefin Sans', sans-serif;
+	font-family: $font-stack;
+	font-weight: 300;
+	line-height: 1.5;
+  color: #444;
+  transition: all .4s .3s ease-in;
+}
+body,html{
+	// min-height: 100vh;
+	// overflow: hidden;
+}
